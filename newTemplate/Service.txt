@@ -1,0 +1,19 @@
+package ${myUtil.packageName}.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import ${myUtil.packageName}.entity.${myUtil.entityClassName};
+import ${myUtil.packageName}.entity.ReceiveEntity;
+//import ${myUtil.packageName}.mapper.${myUtil.entityClassName}Mapper;
+import java.util.List;
+
+@Service
+public class ${myUtil.entityClassName}Service {
+  //  @Autowired
+  //  private ${myUtil.entityClassName}Mapper ${myUtil.entityName}Mapper;
+    public Object getData(ReceiveEntity M){
+    return new Object();
+    }
+
+
+}
